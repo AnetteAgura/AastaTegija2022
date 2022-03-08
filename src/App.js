@@ -1,25 +1,38 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
 
-function App() {
+export default function  App() {
+  let ndl = "2022-03-07"
+  let grp = 1433
+  const url = `https://siseveeb.voco.ee/veebilehe_andmed/tunniplaan?grupp=${grp}&nadal=${ndl}`
+
+  console.log(url);
+
+
+
+  fetch(url, {
+    method: "GET"
+  })
+
+
+  .then(response => {
+      if (!response.ok) {
+          throw new Error(response.statusText)
+      }
+      return response.json();
+  })
+  .then(data => {
+      console.log(data)
+  })
+  .catch(console.error)
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
     </div>
   );
 }
 
-export default App;
+App();
