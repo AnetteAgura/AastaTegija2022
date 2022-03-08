@@ -1,6 +1,6 @@
 # Aasta Tegija 2022
 
-**Team members*  |
+**Team members**  |
 ------------- |
 Henry-Gerret Grüning  |
 Christo Vahtamäe  |
