@@ -11,7 +11,7 @@ Anette Aguraiuja  |
 ## Description
 
 This project is made with **React** and runs in localhost. It is a website for VOCO IT Academy courses young people without higher education can attend.
-Website users can see accurate info about these two IT Academy specific courses. They can also see weekly timetables and event calendar. For weekly timetables we are using API.
+Website users can see accurate info about these two IT Academy specific courses. They can also see weekly timetables and event calendar. API is used for weekly timetables.
 
 ## Getting Started with Create React App
 
