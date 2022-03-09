@@ -38,7 +38,6 @@
 ## Description
 
 **This project only has timetable backend.** All other components and design is in the projekt liked --> [Main React App](https://github.com/Christo-IV/test-react)
-[Main React App](https://github.com/Christo-IV/test-react)
 
 ## Getting Started with Create React App
 
