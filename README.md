@@ -1,17 +1,44 @@
 # Aasta Tegija 2022
 
-**Team members**  |
-------------- |
-Henry-Gerret Grüning  |
-Christo Vahtamäe  |
-Andreas Alexander Sütt |
-Sander Paasalu  |
-Anette Aguraiuja  |
+![IT Akadeemia](https://opik.fyysika.ee/media/img/exp/id-306115.v-2coxx.w-1400.png)
+
+![VOCO](https://tartu.ee/sites/default/files/2022-01/voco%20logo-01.png)
+
+## The team
+
+<table align="center">
+  <tbody>
+    <tr>
+    <th>Member</th>
+    <th>Specialty</th>
+  </tr>
+    <tr>
+    <td>Henry-Gerret Grüning</td>
+    <td>Design / Frontend</td>
+  </tr>
+  <tr>
+    <td>Christo Vahtramäe</td>
+    <td>Frontend</td>
+  </tr>
+    <tr>
+    <td>Andreas Alexander Sütt</td>
+    <td>Fullstack</td>
+  </tr>
+  <tr>
+    <td>Sander Paasalu</td>
+    <td>Fullstack</td>
+  </tr>
+    <tr>
+    <td>Anette Aguraiuja</td>
+    <td>Project manager / Team Lead</td>
+  </tr>
+  </tbody>
+</table>
 
 ## Description
 
-This project is made with **React** and runs in localhost. It is a website for VOCO IT Academy courses young people without higher education can attend.
-Website users can see accurate info about these two IT Academy specific courses. They can also see weekly timetables and event calendar. API is used for weekly timetables.
+**This project only has timetable backend.** All other components and design is in the projekt liked below.
+[Main React App](https://github.com/Christo-IV/test-react)
 
 ## Getting Started with Create React App
 
